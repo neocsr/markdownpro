@@ -1,0 +1,175 @@
+
+html {
+  color: #292324;
+  background: #D5CFD0;
+}
+
+body {
+	margin: 0px;
+	padding: 10px 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+
+a {
+	color: #FF5E51;
+}
+
+a:visited{
+	color: #FF5E51;
+}
+
+a:hover {
+	color: #FF5E51;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+  color: #701D00;
+}
+
+h2 {
+	font-size: 23px;
+  color: #701D00;
+}
+
+h3 {
+	font-size: 21px;
+  color: #36301B;
+}
+
+h4 {
+	font-size: 19px;
+  color: #999977;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+ul {
+	list-style: square;
+	margin: 0px;
+	display: block;
+}
+
+ul li del{
+  color: #9A888B;
+}
+
+ol {
+	margin: 0px;
+	display: block;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+ol li ul > * {
+  font-weight: normal;
+}
+
+code, pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Andale Mono, Courier New, monospace;
+  font-size: 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+pre {
+  display: block;
+  padding: 8.5px;
+  margin: 0 0 18px;
+  line-height: 20px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+pre {
+	background:#696969;
+
+}
+
+code {
+	background:#36301B;
+}
+
+code {
+	background-color: #FF6927;
+}
+
+pre {
+	background-color: #36301B;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	color: #eee;
+	background-color: #36301B;
+}
+
+blockquote {
+	padding: 5px 10px;
+	border-left: 9px solid #36301B;
+	padding: 10px 0px 10px 10px;
+	color: #36301B;
+	margin: 15px 0px;
+	font-family: Arial, Geneva, sans-serif;
+	letter-spacing: 2px;
+}
+
+table {
+	width: auto;
+}
+
+table, table th, table td {
+	border: 0px;
+	padding: 5px;
+}
+
+table td, table th {
+	padding: 6px 10px;
+}
+
+table thead th {
+	color: #D5CFD0;
+	background-color: #292324;
+	padding: 5px;
+}
+
+small {
+}
+
+::selection {
+	background: #F68DC1;
+}
+
+::-moz-selection {
+	background: #F68DC1;
+}
